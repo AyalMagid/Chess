@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    text-align: center;
+    /* background-image: url("img/chessbg.png");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    background-color: beige;
+    font-family: 'Acme', sans-serif;
+}
+h2{
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    margin:0;
+}
+
+h1 {
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    color: red;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: none;
+    border-radius: 25%;
+    border: 5px dotted red;
+    margin: 265px 502px;
+}
+
+.white-info{
+    width: 105px;
+    height: 500;
+    position: absolute;
+    background-color:black;
+    border-radius: 20%;
+    top: 119px;
+    opacity: 0.8;
+    right: 371px;
+    z-index: -1;
+    text-align: center;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.black-info{
+    width: 105px;
+    height: 500;
+    position: absolute;
+    background-color: white;
+    border-radius: 20%;
+    top: 119px;
+    opacity: 0.8;
+    left: 371px;
+    z-index: -1;
+    text-align: center;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.black {
+    background-color: gray
+}
+.white {
+    background-color:rgb(236, 245, 245);
+}
+button {
+    height: 50px;
+    width: 500px;
+    padding: 6px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.selected {
+    outline: 1px solid orange;
+}
+
+.mark {
+   background-color:pink;
+    
+}
+
+.threatened {
+    outline: 3px solid red;
+    
+}
+
+.center {
+   margin-top:10px;
+   margin-left: auto;
+   margin-right:auto;
+
+}
+
+.game-board td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 3.2em;
+    border:2px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+.game-board td:hover {
+    outline: 3px solid orange;
+}
